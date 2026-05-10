@@ -1,0 +1,46 @@
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Môi trường ────────────────────────────────────────────────────
+.env
+*.env
+.venv/
+venv/
+env/
+
+# ── Dữ liệu lớn / file PPTX đã tải ─────────────────────────────
+lecture_db_output/
+Crawling/downloaded_pptx/
+unified_system/input/
+PPT_INPUT/
+
+# ── Media / thumbnail sinh ra khi chạy ───────────────────────────
+unified_system/media/
+
+# ── File báo cáo JSON tạm ────────────────────────────────────────
+unified_system/crawling/report_*.json
+
+# ── File debug / tạm bợ (không cần thiết) ────────────────────────
+unified_system/temp_titles.txt
+unified_system/check_cols.py
+unified_system/check_constraints.py
+unified_system/fix_grades.py
+
+# ── File hệ thống macOS ───────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── File ERD (sinh ra tự động, không cần vào git) ────────────────
+unified_system/erd.html
+unified_system/erd_chen.html
+unified_system/erd_full.html
+unified_system/viz_matching.html
+
+# ── Thư mục cũ/trùng lặp (đã được thay bởi unified_system) ──────
+ppt_batch_lecture_tool/
+
+# ── Node modules nếu có ──────────────────────────────────────────
+node_modules/
